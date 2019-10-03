@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3dc0b0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4)
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+a {
+    width: 25%;
+    text-decoration: none;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+a:hover {
+    box-sizing: border-box;
+    border-bottom: 5px solid;
+}
