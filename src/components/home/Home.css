@@ -15,8 +15,8 @@
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.60);
 }
 
-#home > p {
-    font-size: 1.5rem;
+#home p {
+    font-size: 3.5vw;
 }
 
 h1, p {
@@ -42,7 +42,6 @@ h1 {
     /* padding: 30% 10%; */
     line-height: 2rem;
     text-align: left;
-    font-size: 1.4rem;
 }
 
 @media screen and (min-width: 1000px) {
@@ -52,5 +51,8 @@ h1 {
 
     .intro-container {
         width: 60%;
+    }
+    #home p {
+        font-size: 1.5rem;
     }
 }
