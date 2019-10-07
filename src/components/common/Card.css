@@ -23,6 +23,10 @@
     flex-grow: 1
 }
 
+.title {
+    font-weight: bold;
+}
+
 @media screen and (min-width: 600px) {
     .card {
         width: 40%;

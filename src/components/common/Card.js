@@ -14,8 +14,8 @@ const Card = ({ title, description, icons, repo_url, project_url }) => {
   console.log(iconsComponents);
   return (
     <div className="card">
-      <p className="title">{title.split('-').join(' ')}</p>
-      <p>{description}</p>
+      <p className="title">{title.split('-').join(' ').toUpperCase()}</p>
+      <p>{description.toLowerCase() || ""}</p>
       <div className="icons-container">
         {iconsComponents}
       </div>
